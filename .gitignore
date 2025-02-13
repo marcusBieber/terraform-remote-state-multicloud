@@ -1,0 +1,34 @@
+# Terraform generierte Dateien & Caches
+.terraform/
+.terraform.lock.hcl
+
+# Terraform State-Dateien (sehr wichtig!)
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfstate.*
+
+# Sensible Variablen-Dateien (falls vorhanden)
+*.tfvars
+*.tfvars.json
+
+# Terraform Crash-Logs
+crash.log
+
+# Lokale Terraform Overrides (falls genutzt)
+override.tf
+override.tf.json
+*.auto.tfvars
+
+# Logs & Debugging
+terraform.log
+debug.log
+
+# AWS CLI & Credential Dateien (falls du sie versehentlich im Projekt hast)
+.aws/
+*.pem  # Falls du private SSH-Keys speicherst
+
+# Falls du Visual Studio Code nutzt
+.vscode/
+
+# Falls du MacOS oder Linux nutzt
+.DS_Store
