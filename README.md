@@ -30,6 +30,7 @@ multi-cloud-terraform/
 ```sh
 git clone https://github.com/marcusBieber/terraform-remote-state-multicloud.git
 cd erraform-remote-state-multicloud
+```
 
 ## 🏠 Terraform initialisieren
 
