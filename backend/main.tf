@@ -7,10 +7,10 @@ resource "aws_s3_bucket" "terraform_state" {
 }
 
 resource "aws_dynamodb_table" "terraform_locks" {
-  name = "terraform-state-lock-2"
-  billing_mode = "PROVISIONED"
-  hash_key = "LockID"
-  read_capacity = 5
+  name           = "terraform-state-lock-2"
+  billing_mode   = "PROVISIONED"
+  hash_key       = "LockID"
+  read_capacity  = 5
   write_capacity = 5
 
   attribute {

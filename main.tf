@@ -8,9 +8,9 @@ provider "azurerm" {
 }
 
 module "aws_resources" {
-  source     = "./modules/aws"
+  source = "./modules/aws"
 }
 
 module "azure_resources" {
-  source       = "./modules/azure"
+  source = "./modules/azure"
 }

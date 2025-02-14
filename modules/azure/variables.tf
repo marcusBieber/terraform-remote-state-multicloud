@@ -7,5 +7,5 @@ variable "azure_region" {
 variable "azure_rg" {
   description = "Azure resource group"
   type        = string
-  default     = "rg-24-04-on-marcus-bieber"
+  default     = "rg-24-04-on-bieber-marcus"
 }
